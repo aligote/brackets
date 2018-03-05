@@ -1,0 +1,148 @@
+@import "vars"
+@import "fonts"
+@import "libs"
+
+
+
+::placeholder
+	color: #666
+
+::selection
+	background-color: $accent
+	color: #fff
+
+html, body
+	height: 100%
+
+body
+	font-size: 16px
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: $default-font
+	overflow-x: hidden
+	input, textarea
+			border: #666 1px solid
+			outline: none
+			&:focus:required:invalid
+				border-color: red
+			&:required:valid
+				border-color: green
+
+.img-responsive
+	display: block
+	max-width: 100%
+	height: auto
+
+.text-center
+	text-align: center
+
+
+
+
+
+
+hr
+	background-color: $basecolor
+	height: 1pt
+	width: 1440px
+
+
+
+.t_menu a
+	font-size: 0.8em
+	color: $mycolor
+	font-weight: 700
+
+.t_menu>.row
+	padding-top: 9px
+
+.fa-search
+	color: $basecolor
+	font-size: 10px
+
+.l_side a
+	font-size: 11px
+	color: $mycolor
+.l_side .offset-2
+	font-size: 12px
+	color: $mycolor
+
+
+
+.sec_m a
+	font-size: 8pt
+	color: $sidecolor
+	text-decoration: underline
+
+.fa-phone
+	color: $basecolor
+	margin-left: 100px
+	margin-right: -25px
+
+.th_m a
+	text-transform: uppercase
+	color: $mycolor
+	font-size: 11pt
+	font-weight: 700
+	margin-right: 30px
+.th_m a:last-child
+	font-size: 12pt
+
+.th_m a6
+	color: #c1b2c4
+
+
+
+.fa-viber
+	color: #7E3FB5
+	margin-left: 20px
+	font-size: 17px
+.fa-telegram-plane
+	color: #59abdd
+	margin-left: 20px
+	font-size: 17px
+.fa-whatsapp
+	color: #2BBA4D
+	margin-left: 20px
+	font-size: 17px
+.fa-clock
+	font-size: 8pt
+
+.form_search
+	border: none
+
+.fa-arrow-alt-circle-down
+	color: $basecolor
+	margin-left: 195px
+.fa-registered
+	color: $basecolor
+	margin-left: 40px
+.fa-external-link-alt
+	color: $basecolor
+	margin-left: 40px
+
+.fa-trash-alt
+	color: $basecolor
+
+.m_content.row div:last-child
+	color: $basecolor
+
+
+.row
+
+.col*
+
+
+
+
+
+
+
+
+
+
+
+
+
+@import "media" // Always at the end
